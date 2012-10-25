@@ -1,0 +1,9 @@
+[submodule "asi-http-request"]
+	path = asi-http-request
+	url = https://github.com/WenqingZhou/asi-http-request.git
+[submodule "json-framework"]
+	path = json-framework
+	url = https://github.com/WenqingZhou/json-framework.git
+[submodule "MBProgressHUD"]
+	path = MBProgressHUD
+	url = https://github.com/WenqingZhou/MBProgressHUD.git
