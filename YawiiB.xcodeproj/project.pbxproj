@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5374A616392E0D000F3508 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5374A516392E0D000F3508 /* UIKit.framework */; };
+		EF5374A816392E0D000F3508 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5374A716392E0D000F3508 /* Foundation.framework */; };
+		EF5374AA16392E0D000F3508 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5374A916392E0D000F3508 /* CoreGraphics.framework */; };
+		EF5374B016392E0D000F3508 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF5374AE16392E0D000F3508 /* InfoPlist.strings */; };
+		EF5374B216392E0D000F3508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5374B116392E0D000F3508 /* main.m */; };
+		EF5374B616392E0D000F3508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5374B516392E0D000F3508 /* AppDelegate.m */; };
+		EF5374B816392E0D000F3508 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5374B716392E0D000F3508 /* Default.png */; };
+		EF5374BA16392E0D000F3508 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5374B916392E0D000F3508 /* Default@2x.png */; };
+		EF5374BC16392E0D000F3508 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF5374BB16392E0D000F3508 /* Default-568h@2x.png */; };
+		EF5374BF16392E0D000F3508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5374BE16392E0D000F3508 /* ViewController.m */; };
+		EF5374C216392E0D000F3508 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5374C016392E0D000F3508 /* ViewController_iPhone.xib */; };
+		EF5374C516392E0D000F3508 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5374C316392E0D000F3508 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF5374A116392E0D000F3508 /* YawiiB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YawiiB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5374A516392E0D000F3508 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF5374A716392E0D000F3508 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF5374A916392E0D000F3508 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF5374AD16392E0D000F3508 /* YawiiB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YawiiB-Info.plist"; sourceTree = "<group>"; };
+		EF5374AF16392E0D000F3508 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF5374B116392E0D000F3508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5374B316392E0D000F3508 /* YawiiB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YawiiB-Prefix.pch"; sourceTree = "<group>"; };
+		EF5374B416392E0D000F3508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5374B516392E0D000F3508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF5374B716392E0D000F3508 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EF5374B916392E0D000F3508 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EF5374BB16392E0D000F3508 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EF5374BD16392E0D000F3508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF5374BE16392E0D000F3508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF5374C116392E0D000F3508 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EF5374C416392E0D000F3508 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF53749E16392E0D000F3508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5374A616392E0D000F3508 /* UIKit.framework in Frameworks */,
+				EF5374A816392E0D000F3508 /* Foundation.framework in Frameworks */,
+				EF5374AA16392E0D000F3508 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF53749616392E0D000F3508 = {
+			isa = PBXGroup;
+			children = (
+				EF5374AB16392E0D000F3508 /* YawiiB */,
+				EF5374A416392E0D000F3508 /* Frameworks */,
+				EF5374A216392E0D000F3508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5374A216392E0D000F3508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5374A116392E0D000F3508 /* YawiiB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5374A416392E0D000F3508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5374A516392E0D000F3508 /* UIKit.framework */,
+				EF5374A716392E0D000F3508 /* Foundation.framework */,
+				EF5374A916392E0D000F3508 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF5374AB16392E0D000F3508 /* YawiiB */ = {
+			isa = PBXGroup;
+			children = (
+				EF5374B416392E0D000F3508 /* AppDelegate.h */,
+				EF5374B516392E0D000F3508 /* AppDelegate.m */,
+				EF5374BD16392E0D000F3508 /* ViewController.h */,
+				EF5374BE16392E0D000F3508 /* ViewController.m */,
+				EF5374C016392E0D000F3508 /* ViewController_iPhone.xib */,
+				EF5374C316392E0D000F3508 /* ViewController_iPad.xib */,
+				EF5374AC16392E0D000F3508 /* Supporting Files */,
+			);
+			path = YawiiB;
+			sourceTree = "<group>";
+		};
+		EF5374AC16392E0D000F3508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5374AD16392E0D000F3508 /* YawiiB-Info.plist */,
+				EF5374AE16392E0D000F3508 /* InfoPlist.strings */,
+				EF5374B116392E0D000F3508 /* main.m */,
+				EF5374B316392E0D000F3508 /* YawiiB-Prefix.pch */,
+				EF5374B716392E0D000F3508 /* Default.png */,
+				EF5374B916392E0D000F3508 /* Default@2x.png */,
+				EF5374BB16392E0D000F3508 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5374A016392E0D000F3508 /* YawiiB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5374C816392E0D000F3508 /* Build configuration list for PBXNativeTarget "YawiiB" */;
+			buildPhases = (
+				EF53749D16392E0D000F3508 /* Sources */,
+				EF53749E16392E0D000F3508 /* Frameworks */,
+				EF53749F16392E0D000F3508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YawiiB;
+			productName = YawiiB;
+			productReference = EF5374A116392E0D000F3508 /* YawiiB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF53749816392E0D000F3508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Yawii;
+			};
+			buildConfigurationList = EF53749B16392E0D000F3508 /* Build configuration list for PBXProject "YawiiB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF53749616392E0D000F3508;
+			productRefGroup = EF5374A216392E0D000F3508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5374A016392E0D000F3508 /* YawiiB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF53749F16392E0D000F3508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5374B016392E0D000F3508 /* InfoPlist.strings in Resources */,
+				EF5374B816392E0D000F3508 /* Default.png in Resources */,
+				EF5374BA16392E0D000F3508 /* Default@2x.png in Resources */,
+				EF5374BC16392E0D000F3508 /* Default-568h@2x.png in Resources */,
+				EF5374C216392E0D000F3508 /* ViewController_iPhone.xib in Resources */,
+				EF5374C516392E0D000F3508 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF53749D16392E0D000F3508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5374B216392E0D000F3508 /* main.m in Sources */,
+				EF5374B616392E0D000F3508 /* AppDelegate.m in Sources */,
+				EF5374BF16392E0D000F3508 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF5374AE16392E0D000F3508 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5374AF16392E0D000F3508 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF5374C016392E0D000F3508 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5374C116392E0D000F3508 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EF5374C316392E0D000F3508 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5374C416392E0D000F3508 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5374C616392E0D000F3508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5374C716392E0D000F3508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5374C916392E0D000F3508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YawiiB/YawiiB-Prefix.pch";
+				INFOPLIST_FILE = "YawiiB/YawiiB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF5374CA16392E0D000F3508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YawiiB/YawiiB-Prefix.pch";
+				INFOPLIST_FILE = "YawiiB/YawiiB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF53749B16392E0D000F3508 /* Build configuration list for PBXProject "YawiiB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5374C616392E0D000F3508 /* Debug */,
+				EF5374C716392E0D000F3508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5374C816392E0D000F3508 /* Build configuration list for PBXNativeTarget "YawiiB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5374C916392E0D000F3508 /* Debug */,
+				EF5374CA16392E0D000F3508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF53749816392E0D000F3508 /* Project object */;
+}
