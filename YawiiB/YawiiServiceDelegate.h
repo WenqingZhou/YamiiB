@@ -6,8 +6,10 @@
 //  Copyright (c) 2012 Yawii. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@protocol LoginDelegate <NSObject>
+@protocol YawiiServiceDelegate
 
+- (void)successfulToRequest:(NSDictionary *)response;
+- (void)failToRequestWithError:(NSString *)errorStr;
 @end

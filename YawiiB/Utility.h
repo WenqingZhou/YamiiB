@@ -10,4 +10,7 @@
 
 @interface Utility : NSObject
 
++ (void)redirectNSLog;
++ (NSString *)getDocumentDir;
+
 @end

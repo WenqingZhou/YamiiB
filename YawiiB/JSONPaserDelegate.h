@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol JSONPaserDelegate <NSObject>
+@protocol JSONPaserDelegate
+
+- (void)successfulToParse:(NSDictionary *)response;
+- (void)failToPaserWithError:(NSString *)errorStr;
 
 @end

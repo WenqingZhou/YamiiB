@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YawiiServiceHandler.h"
+#import "MBProgressHUD.h"
+#import "YawiiServiceDelegate.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <YawiiServiceDelegate>
+{
+    IBOutlet UIButton *connectBtn;
+}
 
 @end

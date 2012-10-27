@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ASIHTTPRequest.h"
+#import "YawiiJSONPaser.h"
+#import "YawiiServiceDelegate.h"
 
-@interface YawiiServiceHandler : NSObject
+@interface YawiiServiceHandler : NSObject<JSONPaserDelegate>
+
+@property (nonatomic,retain) id<YawiiServiceDelegate> delegate;
+
+-(void)requestForUrl:(NSURL *)url;
 
 @end
