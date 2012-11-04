@@ -1,0 +1,90 @@
+/* reset.css */
+html {margin:0;padding:0;border:0;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+/* typography.css */
+html {font-size:100.01%;}
+body {font-size:75%;color:#222;background:#fff;font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:1em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h6 {font-size:1em;font-weight:bold;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1.5em;}
+.left {float:left !important;}
+p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
+.right {float:right !important;}
+p .right {margin:1.5em 0 1.5em 1.5em;padding:0;}
+a:focus, a:hover {color:#09f;}
+a {color:#06c;text-decoration:underline;}
+blockquote {margin:1.5em;color:#666;font-style:italic;}
+strong, dfn {font-weight:bold;}
+em, dfn {font-style:italic;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom:1px dotted #666;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color:#666;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+li ul, li ol {margin:0;}
+ul, ol {padding-left:2em;}
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+
+/* grid.css */
+.container {margin:20px; min-width:250px;}
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix, .container {display:block;}
+.clear {clear:both;}
+
+body {background:#fff; color:#303030; font-family:arial,helvetica; }
+
+/* discount box style */
+.discount-box {background:url('special-star-red.png') no-repeat; width:64px; height:64px; text-align:center;}
+.discount-box.expired {background:url('special-star-gray.png') no-repeat;}
+.discount-box.upcoming {background:url('special-star-pink.png') no-repeat;}
+.discount-box span{color:#fff; font-size:1.8em; line-height:2.9em; text-shadow:1px 1px 0 #666; white-space:nowrap;}
+
+/* special preview style */
+.special {background:#fec !important;}
+.special {border-radius:8px; -moz-border-radius:8px; -webkit-border-radius:8px;
+	box-shadow:0 2px 4px #888; -moz-box-shadow:0 2px 4px #888; -webkit-box-shadow:0 2px 4px #888;}
+.special .bar {background:#fa6; padding:0.5em 0.8em; margin:0.8em 0 0 -0.8em; position:relative;}
+.special .bar {box-shadow:2px 1px 2px #456; -moz-box-shadow:2px 1px 2px #456; -webkit-box-shadow:2px 1px 2px #456;}
+.special .bar .title{font-size:1.5em; font-weight:bold; color:white; text-shadow:1px 1px 0 #666;}
+.special .bar .discount-box{position:absolute; top:-1em;right:-1em;}
+.special .merchant {padding:0.7em 1em;}
+.special .merchant .logo {float:left; margin-right:1em;}
+.special .merchant .logo img {width:64px; height:64px; border-color:#eee #bbb #bbb #eee; border-style:solid; border-width:1px; padding:3px; background:#fff;}
+.special .merchant .info {float:left;}
+.special .merchant .info .title {font-size:1.2em; font-weight:bold;}
+.special .merchant .info .address {}
+.special .merchant .info .area {}
+.special .merchant .info .phone {}
+.special .merchant .text {margin-top:0.6em;}
+.special .merchant .text ul {}
+.special .merchant .text ul li {}
+.special .offer {padding:0.7em 1em; border-top:1px solid #ddd;}
+.special .offer .icon {float:left; width:3em; text-align:left; padding-top:5px;}
+.special .offer .info {overflow:hidden;}
+.special .offer .info .hour-range{font-weight:bold;}
+.special .offer .info .date-range{}
+.special .offer .info .currency {font-size:2em; color:#f63;}
+.special .offer .info .price {font-size:2em; color:#f63;}
+.special .offer .info .value {font-size:1.1em; color:gray; text-decoration:line-through;}
+.special .offer .limit {font-size:1em; text-align:right; font-weight:bold;}

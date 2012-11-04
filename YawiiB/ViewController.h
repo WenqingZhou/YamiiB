@@ -10,10 +10,23 @@
 #import "YawiiServiceHandler.h"
 #import "MBProgressHUD.h"
 #import "YawiiServiceDelegate.h"
+#import "AZUITextField.h"
+#import "URLHandler.h"
+#import "AddSpecialViewController.h"
 
-@interface ViewController : UIViewController <YawiiServiceDelegate>
+@interface ViewController : UIViewController <YawiiServiceDelegate,UITextFieldDelegate>
 {
-    IBOutlet UIButton *connectBtn;
+    IBOutlet UIButton *loginBtn;
+    IBOutlet UIImageView *logoImageView;
+    IBOutlet UILabel *yawiiLabel;
+    IBOutlet UILabel *businessLabel;
+    IBOutlet UILabel *sloganLabel;
+    IBOutlet AZUITextField *usernameTF;
+    IBOutlet AZUITextField *passwordTF;
+    IBOutlet UIScrollView *scrollView;
+    IBOutlet UILabel *tradeMark;
+    IBOutlet UIButton *forgetPasswordBtn;
+    
 }
 
 @end

@@ -1,0 +1,27 @@
+Contents of /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiB-Prefix.pch
+4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+arm-apple-darwin11.4.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode452-GMSeed.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+-g
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=4.3
+-iquote
+-iquote
+-I/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphoneos/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphoneos
+SDK_PRODUCT_BUILD_VERSION=10A403

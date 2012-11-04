@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FoundWorkingCopyPaths</key>
+	<array>
+		<string>/Users/wenqingzhou/Desktop/YawiiB/asi-http-request</string>
+		<string>/Users/wenqingzhou/Desktop/YawiiB</string>
+		<string>/Users/wenqingzhou/Desktop/YawiiB/json-framework</string>
+		<string>/Users/wenqingzhou/Desktop/YawiiB/MBProgressHUD</string>
+	</array>
+	<key>LastWorkingCopyScanDate</key>
+	<date>2012-11-04T21:40:06Z</date>
+	<key>Version</key>
+	<integer>3</integer>
+</dict>
+</plist>

@@ -17,6 +17,7 @@
     NSError *error = [request error];
     if (!error) {
         NSString *response = [request responseString];
+        NSLog(@"response:%@",response);
         YawiiJSONPaser *parser=[[YawiiJSONPaser alloc] initWithResponse:response];
         parser.delegate=self;
         [parser parse];

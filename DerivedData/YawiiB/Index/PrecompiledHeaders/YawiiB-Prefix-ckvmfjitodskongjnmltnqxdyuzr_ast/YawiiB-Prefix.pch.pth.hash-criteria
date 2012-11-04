@@ -1,0 +1,32 @@
+Contents of /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiB-Prefix.pch
+4.1 (tags/Apple/clang-421.11.66) (based on LLVM 3.1svn)
+arm-apple-darwin11.4.0
+-x
+objective-c
+-arch
+armv7
+-fmessage-length=0
+-std=gnu99
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode452-GMSeed.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+-g
+-fvisibility=hidden
+-DIBOutlet=__attribute__((iboutlet))
+-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))
+-DIBAction=void)__attribute__((ibaction)
+-miphoneos-version-min=4.3
+-iquote
+-iquote
+-I/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Intermediates/ArchiveIntermediates/YawiiB/BuildProductsPath/Release-iphoneos/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode452-GMSeed.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-F/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Intermediates/ArchiveIntermediates/YawiiB/BuildProductsPath/Release-iphoneos
+-ferror-limit=10
+-working-directory=/Users/wenqingzhou/Desktop/YawiiB
+-Xclang
+-detailed-preprocessing-record
+-DNS_BLOCK_ASSERTIONS=1
+SDK_PRODUCT_BUILD_VERSION=10A403

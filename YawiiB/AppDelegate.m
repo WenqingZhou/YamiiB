@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
 #import "Utility.h"
 
@@ -16,7 +15,7 @@
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    [_nvc release];
     [super dealloc];
 }
 
@@ -24,15 +23,29 @@
 {
     //[Utility redirectNSLog];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    UIViewController *rootView;
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
+        rootView = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
     } else {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
+        rootView = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
     }
-    self.window.rootViewController = self.viewController;
+    _nvc=[[UINavigationController alloc] initWithRootViewController:rootView];
+    self.window.rootViewController = self.nvc;
     [self.window makeKeyAndVisible];
+    
+    self.locManager=[[CLLocationManager alloc] init];
+    self.locManager.delegate=self;
+    [self.locManager startMonitoringSignificantLocationChanges];
     return YES;
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    NSDateFormatter * formatter = [[[NSDateFormatter alloc] init] autorelease];
+	[formatter setTimeStyle:NSDateFormatterMediumStyle];
+    CLLocation *newLocation=[locations lastObject];
+    NSLog(@"Location %.06f %.06f",newLocation.coordinate.latitude, newLocation.coordinate.longitude);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

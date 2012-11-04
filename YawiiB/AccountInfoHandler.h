@@ -11,12 +11,14 @@
 
 @interface AccountInfoHandler : NSObject <ASIHTTPRequestDelegate>
 
-@property (nonatomic,retain) NSDictionary *_dict;
+@property (nonatomic,retain) NSMutableDictionary *_dict;
 @property (nonatomic,retain) NSString *_infoPath;
 +(AccountInfoHandler *)sharedAccountHandler;
-- (void)updateInfo:(NSDictionary *)newInfo;
--(NSDictionary *)read;
+- (void)updateInfo:(NSMutableDictionary *)newInfo;
+-(NSMutableDictionary *)read;
 -(BOOL)write;
+
+-(NSString *)stringForService;
 
 
 @end

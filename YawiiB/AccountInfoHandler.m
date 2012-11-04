@@ -8,6 +8,7 @@
 
 #import "AccountInfoHandler.h"
 #import "Utility.h"
+#import "ConstantStrings.h"
 
 static AccountInfoHandler *_handler;
 
@@ -26,16 +27,18 @@ static AccountInfoHandler *_handler;
     return _handler;
 }
 
-- (void)updateInfo:(NSDictionary *)newInfo
+- (void)updateInfo:(NSMutableDictionary *)newInfo
 {
     self._dict=nil;
     self._dict=newInfo;
-    [self write];
     NSString *picUrl=[[newInfo objectForKey:@"merchant"] objectForKey:@"url_logo"];
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:[NSURL URLWithString:[@"http://business.yamii.fi" stringByAppendingString:picUrl]]];
     [request setDownloadDestinationPath:[NSString stringWithFormat:@"%@/%@",[Utility getDocumentDir],@"/info.jpg"]];
+    NSMutableDictionary *accountInfo=[self._dict objectForKey:@"merchant"];
+    [accountInfo setObject:[NSString stringWithFormat:@"%@/%@",[Utility getDocumentDir],@"/info.jpg"] forKey:ACCOUNT_DICT_URL_LOGO_LOCAL];
     [request setDelegate:self];
     [request startAsynchronous];
+    [self write];
 }
 
 - (void)requestFinished:(ASIHTTPRequest *)request
@@ -48,13 +51,13 @@ static AccountInfoHandler *_handler;
     NSLog(@"Picture failed to download!");
 }
 
--(NSDictionary *)read
+-(NSMutableDictionary *)read
 {
 	NSFileManager *fileManager=[NSFileManager defaultManager];
     if ([fileManager fileExistsAtPath:self._infoPath])
     {
         NSLog(@"Loading info..");
-        return [NSDictionary dictionaryWithContentsOfFile:self._infoPath];
+        return [NSMutableDictionary dictionaryWithContentsOfFile:self._infoPath];
     }
     else
     {
@@ -76,5 +79,12 @@ static AccountInfoHandler *_handler;
         return [self._dict writeToFile:self._infoPath atomically:YES];
     }
 }
+
+- (NSString *)stringForService
+{
+    return [NSString stringWithFormat:@"hid=%@&key=%@",[_dict objectForKey:ACCOUNT_DICT_HID],[_dict objectForKey:ACCOUNT_DICT_KEY]];
+}
+
+
 
 @end
