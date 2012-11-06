@@ -4,13 +4,13 @@
 <dict>
 	<key>FoundWorkingCopyPaths</key>
 	<array>
-		<string>/Users/wenqingzhou/Desktop/YawiiB/asi-http-request</string>
 		<string>/Users/wenqingzhou/Desktop/YawiiB</string>
+		<string>/Users/wenqingzhou/Desktop/YawiiB/asi-http-request</string>
 		<string>/Users/wenqingzhou/Desktop/YawiiB/json-framework</string>
 		<string>/Users/wenqingzhou/Desktop/YawiiB/MBProgressHUD</string>
 	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2012-11-04T21:40:06Z</date>
+	<date>2012-11-06T10:23:03Z</date>
 	<key>Version</key>
 	<integer>3</integer>
 </dict>

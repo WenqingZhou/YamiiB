@@ -6,63 +6,63 @@ cProcessInfoPlistFile /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build
 cProcessPCH /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Intermediates/PrecompiledHeaders/YawiiB-Prefix-ftkgdrxjbcdqrycnuyxbydkpwrhv/YawiiB-Prefix.pch.pth YawiiB/YawiiB-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/main.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/AppDelegate.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIDataCompressor.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIDataCompressor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIDataDecompressor.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIDownloadCache.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIDownloadCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/YawiiServiceHandler.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiServiceHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIFormDataRequest.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIHTTPRequest.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASINetworkQueue.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASINetworkQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIInputStream.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/MBProgressHUD.o /Users/wenqingzhou/Desktop/YawiiB/MBProgressHUD/MBProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/YawiiJSONPaser.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiJSONPaser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/NSObject+SBJson.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIDataDecompressor.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIDataDecompressor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/Reachability.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/External/Reachability/Reachability.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/YawiiServiceHandler.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiServiceHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIFormDataRequest.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIFormDataRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIInputStream.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIInputStream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIHTTPRequest.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIHTTPRequest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/NSObject+SBJson.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonParser.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamParser.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/MBProgressHUD.o /Users/wenqingzhou/Desktop/YawiiB/MBProgressHUD/MBProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamParser.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/YawiiJSONPaser.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/YawiiJSONPaser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonTokeniser.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonWriter.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/AZUITextField.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AZUITextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/Utility.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/Utility.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SBJsonWriter.o /Users/wenqingzhou/Desktop/YawiiB/json-framework/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/AccountInfoHandler.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AccountInfoHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ConstantStrings.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/ConstantStrings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/AZUITextField.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AZUITextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/URLHandler.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/URLHandler.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/NSString+MD5.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/NSString+MD5.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ConstantStrings.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/ConstantStrings.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SystemSetting.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/SystemSetting.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/AddSpecialViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AddSpecialViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/PreviewViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/PreviewViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SSTextView.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/SSTextView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/NSDate+formatString.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/NSDate+formatString.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/PreviewViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/PreviewViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/UITextField+Validation.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/UITextField+Validation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/Constant.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/Constant.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/UITextField+Validation.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/UITextField+Validation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SettingViewController.o /Users/wenqingzhou/Desktop/YawiiB/YawiiB/SettingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/YawiiB normal i386
 cGenerateDSYMFile /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app.dSYM /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/YawiiB
-cCpResource YawiiB/Default.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/Default.png
 cCopyStringsFile /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/en.lproj/InfoPlist.strings YawiiB/en.lproj/InfoPlist.strings
+cCpResource YawiiB/Default.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/Default.png
 cCpResource YawiiB/Default@2x.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/Default@2x.png
 cCpResource YawiiB/Default-568h@2x.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/Default-568h@2x.png
 cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/en.lproj/ViewController_iPhone.xib
 cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/en.lproj/ViewController_iPad.xib
-cCpResource YawiiB/greenButton.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/greenButton.png
 cCpResource YawiiB/ic_launcher_logo_96.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/ic_launcher_logo_96.png
+cCpResource YawiiB/greenButton.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/greenButton.png
 cCpResource YawiiB/greenButton@2x.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/greenButton@2x.png
-cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AddSpecialViewController_iPad.xib
-cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AddSpecialViewController_iPhone.xib
-cCpResource YawiiB/ic_back_72_nobg.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/ic_back_72_nobg.png
-cCpResource YawiiB/asserts DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/asserts
-cCpResource YawiiB/index.html DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/index.html
-cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/SettingViewController.xib
 cCpResource YawiiB/setting.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/setting.png
+cCpResource YawiiB/index.html DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/index.html
+cCpResource YawiiB/ic_back_72_nobg.png DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/ic_back_72_nobg.png
+cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AddSpecialViewController_iPhone.xib
+cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/AddSpecialViewController_iPad.xib
+cCompileXIB /Users/wenqingzhou/Desktop/YawiiB/YawiiB/SettingViewController.xib
+cCpResource YawiiB/asserts DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/asserts
 cTouch /Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app
 
 N/Applications/Xcode452-GMSeed.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
@@ -258,7 +258,7 @@ t1352043293
 s84432
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SettingViewController.o
-t1352065258
+t1352065294
 s72472
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/SystemSetting.o
@@ -299,11 +299,11 @@ t1351948577
 s3284
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app
-t1352065261
+t1352065295
 s646
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app.dSYM
-t1352065260
+t1352065295
 s102
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/AddSpecialViewController_iPad.nib
@@ -339,7 +339,7 @@ t1352065261
 s1119
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/YawiiB
-t1352065259
+t1352065295
 s740748
 
 N/Users/wenqingzhou/Desktop/YawiiB/DerivedData/YawiiB/Build/Products/Debug-iphonesimulator/YawiiB.app/asserts
@@ -1040,7 +1040,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa92fd78e1847b641^f0dadd8e1847b641^---0#1#0#--18"Check dependencies36"A5FAB5E8-C8EC-4FE7-BCF8-0D16A3A91387-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd716367d1449b641^adfc3a7d1449b641^---0#1#0#--18"Check dependencies36"9D23ADCD-9BCD-4938-9560-410512156232-
 
 CCompileC DerivedData/YawiiB/Build/Intermediates/YawiiB.build/Debug-iphonesimulator/YawiiB.build/Objects-normal/i386/ASIAuthenticationDialog.o /Users/wenqingzhou/Desktop/YawiiB/asi-http-request/Classes/ASIAuthenticationDialog.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s373306985.465220
